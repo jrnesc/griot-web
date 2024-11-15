@@ -37,6 +37,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
       <body className={avenirNext.className}>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
