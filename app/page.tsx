@@ -6,7 +6,7 @@ export default function Home() {
       <div className="max-w-7xl mx-auto flex px-5 py-36 flex-col items-center md:flex-row">
         <div className="flex flex-col pt-6 mb-20 md:mb-40 items-center text-center lg:flex-grow md:w-1/2 md:ml-24 md:items-start md:text-left">
           <h1 className="mb-5 text-5xl sm:text-6xl items-center xl:w-2/2 text-gray-900 font-bold">
-            Connect dots, elevate your thinking
+            Elevated Thinking
           </h1>
           <p className="mb-4 xl:w-3/4 text-lg text-gray-600">
             You deserve a tool that helps you focus on the information that truly matters
