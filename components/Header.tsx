@@ -13,7 +13,10 @@ export default function Header() {
         <nav className="p-4">
           <ul className="flex items-center">
             <li>
-              <AppStoreButton url="" />
+              <AppStoreButton
+                url="https://apps.apple.com/gb/app/griot-ai/id6502509469"
+                className="cursor-pointer"
+              />
             </li>
           </ul>
         </nav>
