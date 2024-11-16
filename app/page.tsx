@@ -6,14 +6,22 @@ export default function Home() {
       <div className="max-w-7xl mx-auto flex px-5 py-24 flex-col items-center md:flex-row">
         <div className="flex flex-col pt-6 mb-20 md:mb-40 items-center text-center lg:flex-grow md:w-1/2 md:ml-24 md:items-start md:text-left">
           <h1 className="mb-5 text-5xl sm:text-6xl items-center xl:w-2/2 text-gray-900 font-bold">
-            Connect dots, elevate your thinking
+            Connect dots,<br />
+            elevate your thinking
           </h1>
           <p className="mb-4 xl:w-3/4 text-lg text-gray-600">
             You deserve a tool that helps you focus on the information that truly matters
           </p>
         </div>
         <div className="mx-auto lg:mr-36">
-          <Image src="/phone.png" alt="phone" width={325} height={325} />
+          <Image 
+            src="/demo.gif"  // Replace with your actual GIF file path
+            alt="animated demo" 
+            width={300} 
+            height={300}
+            className="rounded-[32px]" // Adjusted positioning
+            priority  // Ensures the GIF loads immediately
+          />
         </div>
       </div>
       <div className="max-w-6xl mx-auto px-4 sm:px-6 text-center">
