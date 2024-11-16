@@ -3,7 +3,7 @@ import Image from 'next/image';
 export default function Home() {
   return (
     <section className="text-gray-600">
-      <div className="max-w-7xl mx-auto flex px-5 py-24 flex-col items-center md:flex-row">
+      <div className="max-w-7xl mx-auto flex px-5 py-36 flex-col items-center md:flex-row">
         <div className="flex flex-col pt-6 mb-20 md:mb-40 items-center text-center lg:flex-grow md:w-1/2 md:ml-24 md:items-start md:text-left">
           <h1 className="mb-5 text-5xl sm:text-6xl items-center xl:w-2/2 text-gray-900 font-bold">
             Connect dots, elevate your thinking
@@ -13,7 +13,7 @@ export default function Home() {
           </p>
         </div>
         <div className="mx-auto lg:mr-36">
-          <Image src="/phone.png" alt="phone" width={325} height={325} />
+          <Image src="/app.png" alt="phone" width={300} height={100} />
         </div>
       </div>
       <div className="max-w-6xl mx-auto px-4 sm:px-6 text-center">
