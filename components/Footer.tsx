@@ -7,25 +7,20 @@ export default function Footer() {
         <div className="flex flex-col-reverse justify-between pt-5 pb-4 border-t bg-top border-black lg:flex-row">
           <ul className="flex flex-col space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row">
             <li>
-              <Link href="/" className="text-md text-black font-semibold">
-                Terms of Service
-              </Link>
-            </li>
-            <li>
-              <Link href="/" className="text-md text-black font-semibold">
+              <Link href="/privacy-policy" className="text-md text-black font-semibold">
                 Privacy Policy
               </Link>
             </li>
             <li>
+              <Link href="/terms-of-service" className="text-md text-black font-semibold">
+                Terms of Service
+              </Link>
+            </li>
+            {/* <li>
               <Link href="/" className="text-md text-black font-semibold">
                 Ad Choices
               </Link>
-            </li>
-            <li>
-              <Link href="/" className="text-md text-black font-semibold">
-                Cookie Policy
-              </Link>
-            </li>
+            </li> */}
           </ul>
           <ul className="flex flex-col mb-3 space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row">
             <Link href="/" className="text-md text-orange-400 font-semibold tracking-tight">
