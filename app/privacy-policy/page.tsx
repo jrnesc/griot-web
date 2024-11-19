@@ -15,10 +15,12 @@ export default function PrivacyPolicy() {
   }, []);
 
   return (
-    <div 
-      name="termly-embed" 
-      data-id="9f297bd6-fcf0-4be4-9154-eac07b68e893"
-      className="pt-28"
-    />
+    <div className="px-4 md:px-8 lg:px-16 max-w-7xl mx-auto">
+      <div 
+        {...{name: "termly-embed"}} 
+        data-id="9f297bd6-fcf0-4be4-9154-eac07b68e893"
+        className="pt-28"
+      />
+    </div>
   );
 }

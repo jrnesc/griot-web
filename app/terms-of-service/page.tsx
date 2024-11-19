@@ -15,10 +15,12 @@ export default function TermsOfService() {
   }, []);
 
   return (
-    <div 
-      name="termly-embed" 
-      data-id="7b782b32-c6ef-47f9-8724-fb41f1ffea35"
-      className="pt-28"
-    />
+    <div className="px-4 md:px-8 lg:px-16 max-w-7xl mx-auto">
+      <div 
+        {...{name: "termly-embed"}} 
+        data-id="7b782b32-c6ef-47f9-8724-fb41f1ffea35"
+        className="pt-28"
+      />
+    </div>
   );
 }
