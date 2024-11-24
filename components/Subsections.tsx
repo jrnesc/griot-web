@@ -2,7 +2,8 @@ export default function Subsections() {
   return (
     <div className="max-w-6xl mx-auto p-4 text-center">
       <div className="mb-8">
-        <h1 className="text-4xl font-bold mt-20">Upload Your Sources.</h1>
+        <span className="material-symbols-outlined">neurology</span>
+        <h1 className="text-4xl font-bold mt-2">Upload Your Sources.</h1>
         <p className="text-lg text-gray-600">Make connections across all of your media types.</p>
       </div>
       <div className="flex flex-col md:flex-row items-center mb-8">
@@ -14,8 +15,9 @@ export default function Subsections() {
         </div>
       </div>
 
-      <div className="mb-8">
-        <h1 className="text-4xl font-bold mt-20">Curiosity To Clarity.</h1>
+      <div className="mb-8 mt-20">
+        <span className="material-symbols-outlined">Psychiatry</span>
+        <h1 className="text-4xl font-bold mt-2">Curiosity To Clarity.</h1>
         <p className="text-lg text-gray-600">Make connections across all of your media types.</p>
       </div>
       <div className="flex flex-col md:flex-row items-center mb-8">
@@ -27,8 +29,10 @@ export default function Subsections() {
         </div>
       </div>
 
-      <div className="mb-8">
-        <h1 className="text-4xl font-bold mt-20">Look Beyond The Tool.</h1>
+      <div className="mb-8 mt-20">
+        <span className="material-symbols-outlined">Brightness_7
+        </span>
+        <h1 className="text-4xl font-bold mt-2">Look Beyond The Tool.</h1>
         <p className="text-lg text-gray-600">Grasp knowledge at its root.</p>
       </div>
       <div className="flex flex-col md:flex-row items-center mb-8">
