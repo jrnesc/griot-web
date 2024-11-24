@@ -24,7 +24,7 @@ export default function Footer() {
           </ul>
           <ul className="flex flex-col mb-3 space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row sm:justify-center items-center">
             <Link href="/" className="text-md text-black font-semibold">
-              © 2024 Griot AI by Griot Labs
+              © 2024 Griot
             </Link>
           </ul>
         </div>
