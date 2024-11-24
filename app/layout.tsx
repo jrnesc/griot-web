@@ -34,6 +34,9 @@ const avenirNext = localFont({
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
+      <head>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Symbols+Outlined" rel="stylesheet" />
+      </head>
       <body className={avenirNext.className}>
         <Header />
         {children}
