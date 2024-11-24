@@ -10,7 +10,7 @@ export default function Home() {
             Personal AI Search
           </h1>
           <p className="mb-4 xl:w-3/4 text-lg text-gray-600">
-            Curate a space for your most important sources,<br/>reduce the time from curiosity to clarity
+            Curate a space for your most important sources
           </p>
         </div>
         <div className="mx-auto lg:mr-36 md:ml-4">
