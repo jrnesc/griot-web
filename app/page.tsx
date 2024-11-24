@@ -10,14 +10,18 @@ export default function Home() {
             Personal AI Search
           </h1>
           <p className="mb-4 xl:w-3/4 text-lg text-gray-600">
-            Curate a space for your sources, reduce your time to clarity
+            Curate a space for your most important sources,<br/>reduce the time from curiosity to clarity
           </p>
         </div>
-        <div className="mx-auto lg:mr-36">
+        <div className="mx-auto lg:mr-36 md:ml-4">
           <Image src="/app.png" alt="phone" width={250} height={100} className="w-full max-w-xs" />
         </div>
       </div>
-      <Subsections />
+
+      <div className="mt-0 mb-0"> 
+          <Subsections />
+      </div>
+
       <div className="max-w-6xl mx-auto px-4 sm:px-6 text-center">
         <div className="py-24 md:py-36">
           <h1 className="mb-5 text-4xl sm:text-5xl text-gray-900 font-semibold">
