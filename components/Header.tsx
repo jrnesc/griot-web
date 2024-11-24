@@ -16,18 +16,17 @@ export default function Header() {
 
         <nav className="p-4">
           <ul className="flex items-center">
-          <li className="mx-6">
-              <Link href="/" className="hover:underline">Overview</Link>
-            </li>
-            <li className="mr-12">
+          {/* <li className="mx-6">
+            <Link href="/" className="hover:underline">Overview</Link>
+          </li>
+
+          <li className="mr-12">
               <Link href="/business" className="hover:underline">Business</Link>
-            </li>
-            <li>
-              <AppStoreButton
-                url="https://apps.apple.com/gb/app/griot-ai/id6502509469"
-                className="cursor-pointer"
-              />
-            </li>
+          </li> */}
+
+          <li>
+            <AppStoreButton url="https://apps.apple.com/gb/app/griot-ai/id6502509469" className="cursor-pointer"/>
+          </li>
           </ul>
         </nav>
       </div>
