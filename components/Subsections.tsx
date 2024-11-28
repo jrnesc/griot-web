@@ -18,7 +18,7 @@ export default function Subsections() {
       <div className="mb-8 mt-20">
         <span className="material-symbols-outlined">Psychiatry</span>
         <h1 className="text-4xl font-bold mt-2 text-gray-900">Curiosity To Clarity</h1>
-        <p className="text-lg text-gray-600">Make connections across all of your media types</p>
+        <p className="text-lg text-gray-600">Surround yourself with the smartest ideas</p>
       </div>
       <div className="flex flex-col md:flex-row items-center mb-8">
         <div className="p-6 w-full md:w-1/2">
@@ -32,7 +32,7 @@ export default function Subsections() {
       <div className="mb-8 mt-20">
         <span className="material-symbols-outlined">Brightness_7</span>
         <h1 className="text-4xl font-bold mt-2 text-gray-900">Look Beyond The Tool</h1>
-        <p className="text-lg text-gray-600">Grasp knowledge at its root</p>
+        <p className="text-lg text-gray-600">Grasp your knowledge at its root</p>
       </div>
       <div className="flex flex-col md:flex-row items-center mb-8">
         <div className="p-6 w-full md:w-1/2">
