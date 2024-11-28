@@ -11,7 +11,7 @@ export default function Subsections() {
           <img src="/collection+gradient.png" alt="Phone" className="w-full max-w-md mx-auto" />
         </div>
         <div className="ml-0 md:ml-8 w-full md:w-1/2 text-left flex items-center px-8 py-4">
-          <p className="text-lg text-gray-600">Upload PDFs, ePUBs, YouTube videos, Google Docs and Obsidian notes, and Griot will create a search engine to make research and brainstorming easier.<br />Powered by GPT-4o</p>
+          <p className="text-lg text-gray-600">Upload PDFs, ePUBs, YouTube videos, Google Docs and Obsidian notes, and Griot will create a search engine to make research and brainstorming easier</p>
         </div>
       </div>
 
