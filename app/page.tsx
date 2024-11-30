@@ -1,7 +1,22 @@
+"use client";
+
 import Image from 'next/image';
 import Subsections from '@/components/Subsections';
+import { createContact } from '@/app/api/send/route';
+import { useState } from 'react';
 
 export default function Home() {
+  const [email, setEmail] = useState('');
+
+  const handleSubscribe = async (email: string) => {
+    try {
+      await createContact(email, 'J', 'E');
+      console.log('Subscription successful');
+    } catch (error) {
+      console.error('Subscription failed:', error);
+    }
+  };
+
   return (
     <section className="text-gray-600">
       <div className="max-w-7xl mx-auto flex flex-col px-5 py-36 items-center md:flex-row">
@@ -39,10 +54,18 @@ export default function Home() {
                 type="email"
                 id="email"
                 className="py-3 px-4 block w-full rounded-2xl focus:ring-0 focus:ring-offset-0"
+                onChange={(e) => setEmail(e.target.value)} // Capture email input
               />
             </div>
-            <button type="button" className="py-3 px-4 inline-flex justify-center items-center gap-x-2 rounded-2xl bg-orange-400">
-                <span className="font-semibold text-md text-white pt-1">Subscribe</span>
+            <button 
+              type="button" 
+              className="py-3 px-4 inline-flex justify-center items-center gap-x-2 rounded-2xl bg-orange-400"
+              onClick={() => {
+                console.log('Button clicked'); // Debug log
+                handleSubscribe(email);
+              }}
+            >
+              <span className="font-semibold text-md text-white pt-1">Subscribe</span>
             </button>
           </div>
         </div>
