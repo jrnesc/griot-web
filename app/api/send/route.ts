@@ -19,7 +19,7 @@ export async function POST(req: Request) {
   const { email, firstName, lastName } = await req.json();
 
   try {
-    const response = await fetch(`https://api.resend.com/audiences/78261eea-8f8b-4381-83c6-79fa7120f1cf/contacts`, {
+    await fetch(`https://api.resend.com/audiences/78261eea-8f8b-4381-83c6-79fa7120f1cf/contacts`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
