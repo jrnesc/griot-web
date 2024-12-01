@@ -19,29 +19,23 @@ export default function BusinessPage() {
     }
   };
   return (
-    <section className="text-gray-600">
-      <div className="max-w-7xl mx-auto flex flex-col px-5 py-20 items-center md:flex-row">
-        <div className="flex flex-col items-center pt-6 mb-10 md:mb-20 text-center lg:flex-grow md:w-1/2 md:ml-24">
-          <h2 className="mb-8 xl:w-3/4 text-lg text-600 font-bold">
+    <section className="text-gray-600 min-h-screen flex flex-col items-center">
+      <div className="flex-grow max-w-7xl mx-auto flex flex-col px-5 py-20 items-center md:flex-row md:justify-center md:w-full">
+        <div className="flex flex-col items-center pt-6 mb-10 md:mb-20 lg:flex-grow md:w-1/2 md:ml-0">
+          <h2 className="mt-16 mb-8 xl:w-3/4 text-lg text-600 font-bold text-center">
             Coming soon
           </h2>
-          <h1 className="mb-3 text-4xl sm:text-5xl items-center xl:w-2/2 text-gray-900 font-bold">
-            Griot for businesses
+          <h1 className="mb-3 text-4xl sm:text-5xl xl:w-2/2 text-gray-900 font-bold text-center">
+            Autonomous knowledge hub for your team
           </h1>
-          <p className="mb-4 xl:w-3/4 text-lg text-gray-600">
+          <p className="mb-4 xl:w-3/4 text-lg text-gray-600 text-center">
             Integrate Confluence, JIRA, GitHub and MongoDB into a single hub.
           </p>
-          <p className="mb-4 xl:w-3/4 text-lg text-gray-600">
-            Save money and time planning and building.
-          </p>
-          <div className="mb-8 py-8 mt-2 md:mt-0">
+          <div className="py-8 mt-2 md:mt-0">
               <BusinessSubscribeButton email={email} onSubscribe={handleSubscribe} />
-            </div>
-          <div className="flex justify-center w-full max-w-full" style={{ height: 'auto' }}>
-            <Image src="/business.png" alt="phone" width={500} height={300} className="w-full h-auto" />
           </div>
         </div>
       </div>
-    </ section>
+    </section>
   );
 }
