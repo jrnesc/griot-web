@@ -1,5 +1,7 @@
 import Image from 'next/image';
+
 import Subsections from '@/components/Subsections';
+import SubscribeForm from '@/components/SubscribeForm';
 
 export default function Home() {
   return (
@@ -18,32 +20,18 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="mt-0 mb-0"> 
-          <Subsections />
+      <div className="mt-0 mb-0">
+        <Subsections />
       </div>
 
       <div className="max-w-6xl mx-auto px-4 sm:px-6 text-center">
         <div className="py-24 md:py-36">
-          <h1 className="mb-5 text-4xl sm:text-5xl text-gray-900 font-semibold">
-            Subscribe
-          </h1>
+          <h1 className="mb-5 text-4xl sm:text-5xl text-gray-900 font-semibold">Subscribe</h1>
           <h1 className="mb-9 text-xl sm:text-2xl text-gray-600 font-semibold">
             Join our newsletter to improve your learning journey
           </h1>
-          <div className="mx-auto md:w-1/2 flex items-center">
-            <label htmlFor="email" className="sr-only">
-              Email
-            </label>
-            <div className="w-full sm:w-3/4 flex relative border border-gray-600 rounded-2xl mr-2">
-              <input
-                type="email"
-                id="email"
-                className="py-3 px-4 block w-full rounded-2xl focus:ring-0 focus:ring-offset-0"
-              />
-            </div>
-            <button type="button" className="py-3 px-4 inline-flex justify-center items-center gap-x-2 rounded-2xl bg-orange-400">
-                <span className="font-semibold text-md text-white pt-1">Subscribe</span>
-            </button>
+          <div className="mx-auto md:w-1/2">
+            <SubscribeForm />
           </div>
         </div>
       </div>
