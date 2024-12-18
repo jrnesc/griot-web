@@ -30,7 +30,7 @@ export default function AboutPage() {
             </p>
 
             <p className="mb-4 xl:w-3/4 text-lg text-gray-600 text-leading">
-              We&apos;ll always get that niche book or YouTube recommendation from a friend that'll go onto to change our perspective of the work we&apos;re doing.
+              We&apos;ll always get that niche book or YouTube recommendation from a friend that&apos;ll go onto to change our perspective of the work we&apos;re doing.
             </p>
 
             
