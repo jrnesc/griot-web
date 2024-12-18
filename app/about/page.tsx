@@ -56,11 +56,11 @@ export default function AboutPage() {
             </h2>
 
             <p className="mb-4 xl:w-3/4 text-lg text-gray-600 text-leading">
-              <i>Griot AI</i> takes your books and videos and transforms them into a search engine.
+              <i>Griot AI</i> takes your books, notes and videos and transforms them into a search engine.
               <br/>
-              We then use AI to contextualise the results for you.
+              We then use AI to process and contextualise the results for you.
               <br/>
-              We then connect you with other people doing the same.            
+              Then we connect you with other people doing the same.            
             </p>
 
             <p className="mb-4 xl:w-3/4 text-lg text-gray-600 text-leading">
