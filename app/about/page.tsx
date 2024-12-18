@@ -27,9 +27,12 @@ export default function AboutPage() {
 
             <p className="mb-4 xl:w-3/4 text-lg text-gray-600 text-leading">
               We&apos;ve realised that the sources that exist within our own communities are usually the best when it comes to writing, studying and researching.
-              <br/>
-              We&apos;ll always find a niche book or YouTube recommendation from a friend that goes onto to change our perspective of the work we&apos;re doing for months, sometimes years.
             </p>
+
+            <p className="mb-4 xl:w-3/4 text-lg text-gray-600 text-leading">
+              We&apos;ll always get that niche book or YouTube recommendation from a friend that'll go onto to change our perspective of the work we&apos;re doing.
+            </p>
+
             
             <p className="mb-4 xl:w-3/4 text-lg text-gray-600 text-leading">
               The great thing with perspectives, is that you can never have too many. 
