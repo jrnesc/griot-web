@@ -4,9 +4,10 @@ import React from 'react';
 
 export default function AboutPage() {
   return (
-    <section className="text-gray-600 min-h-screen flex flex-col items-center">
-      <div className="flex-grow max-w-7xl mx-auto flex flex-col px-5 py-20 items-center md:flex-row md:justify-center md:w-full">
-        <div className="flex flex-col items-center pt-6 mb-10 md:mb-20 lg:flex-grow md:w-1/2 md:ml-0">
+    <section className="text-gray-600 min-h-screen flex flex-col">
+    <div className="flex-grow container mx-auto px-5 py-20 md:py-24">
+      <div className="flex flex-col md:flex-row md:justify-center">
+        <div className="flex flex-col md:max-w-3xl lg:max-w-4xl xl:max-w-5xl mx-auto">
           <h2 className="mt-16 mb-8 xl:w-3/4 text-lg text-600 font-bold text-leading">
            About
           </h2>
@@ -105,6 +106,7 @@ export default function AboutPage() {
             <br/>
             <i>Griot AI</i> is our first product where we&apos;re tackling the personal knowledge-base problem.
           </p>
+          </div>
         </div>
       </div>
     </section>
