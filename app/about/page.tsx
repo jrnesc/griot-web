@@ -1,8 +1,6 @@
 'use client';
 
-import Image from 'next/image';
 import React from 'react';
-import { useState } from 'react';
 
 export default function AboutPage() {
   return (
@@ -22,7 +20,7 @@ export default function AboutPage() {
           <p className="mb-4 xl:w-3/4 text-lg text-gray-600 text-leading">
             We understand that the best quality information comes from our own personal libraries.
             <br/>
-            Whether that's your books (eBooks), personal notes, or even that YouTube 'watch later' playlist full of math lectures.
+            Whether that&apos;s your books (eBooks), personal notes, or even that YouTube &apos;watch later&apos; playlist full of math lectures.
           </p>
 
 
