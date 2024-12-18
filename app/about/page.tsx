@@ -25,9 +25,9 @@ export default function AboutPage() {
 
 
           <p className="mb-4 xl:w-3/4 text-lg text-gray-600 text-leading">
-            We've realised that the sources that exist within our own communities are usually the best when it comes to writing, studying and researching.
+            We&apos;ve realised that the sources that exist within our own communities are usually the best when it comes to writing, studying and researching.
             <br/>
-            We'll always find a niche book or YouTube recommendation from a friend that goes onto to change our perspective of the work we're doing for months, sometimes years.
+            We&apos;ll always find a niche book or YouTube recommendation from a friend that goes onto to change our perspective of the work we&apos;re doing for months, sometimes years.
           </p>
           
           <p className="mb-4 xl:w-3/4 text-lg text-gray-600 text-leading">
@@ -43,7 +43,7 @@ export default function AboutPage() {
           </p>
 
           <p className="mb-4 xl:w-3/4 text-lg text-gray-600 text-leading">
-            Our aim with <i>Griot AI</i> is to reduce the noise, make connections where you wouldn't normally expect them and arrive at better conclusions.
+            Our aim with <i>Griot AI</i> is to reduce the noise, make connections where you wouldn&apos;t normally expect them and arrive at better conclusions.
           </p>
 
           <p className="mb-4 xl:w-3/4 text-lg text-gray-600 text-leading">
@@ -71,7 +71,7 @@ export default function AboutPage() {
           </p>
 
           <p className="mb-4 xl:w-3/4 text-lg text-gray-600 text-leading">
-            Picture yourself talking to Fanon, Jung and Aurelius about humanity's collective consciousness.
+            Picture yourself talking to Fanon, Jung and Aurelius about humanity&apos;s collective consciousness.
             <br/>
             Imagine asking Cedric Robinson and Herodotus about the history of the world.
           </p>
@@ -101,9 +101,9 @@ export default function AboutPage() {
           </h2>
 
           <p className="mb-4 xl:w-3/4 text-lg text-gray-600 text-leading">
-            We're a collective of engineers and designers getting creative solving problems we're drawn to.
+            We&apos;re a collective of engineers and designers getting creative solving problems we&apos;re drawn to.
             <br/>
-            <i>Griot AI</i> is our first product where we're tackling the personal knowledge-base problem.
+            <i>Griot AI</i> is our first product where we&apos;re tackling the personal knowledge-base problem.
           </p>
         </div>
       </div>
