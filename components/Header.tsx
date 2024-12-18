@@ -2,8 +2,6 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 
-import AppStoreButton from './AppStoreButton';
-
 export default function Header() {
   return (
     <div className="fixed top-0 w-full z-30 clearNav bg-opacity-90 transition duration-300 ease-in-out">
