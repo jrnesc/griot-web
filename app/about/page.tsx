@@ -103,8 +103,6 @@ export default function AboutPage() {
 
             <p className="mb-4 xl:w-3/4 text-lg text-gray-600 text-leading">
               We&apos;re a collective of engineers and designers getting creative solving problems we&apos;re drawn to.
-              <br/>
-              <i>Griot AI</i> is our first product where we&apos;re tackling the personal knowledge-base problem.
             </p>
           </div>
         </div>
