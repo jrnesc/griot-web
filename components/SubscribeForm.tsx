@@ -23,9 +23,13 @@ export default function SubscribeForm() {
       </div>
       <button
         type="submit"
-        className="py-3 px-4 inline-flex justify-center items-center rounded-2xl bg-orange-400"
+        className={`py-3 px-4 inline-flex justify-center items-center rounded-2xl ${
+          state?.success ? 'bg-blue-500' : 'bg-orange-400'
+        }`}
       >
-        <span className="font-semibold text-md text-white pt-1">Subscribe</span>
+        <span className="font-semibold text-md text-white pt-1">
+          {state?.success ? 'Subscribed!' : 'Subscribe'}
+        </span>
       </button>
     </form>
   );

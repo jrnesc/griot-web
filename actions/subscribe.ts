@@ -42,4 +42,6 @@ export const subscribe = async (_prevState: any, formData: FormData) => {
   if (emailError) {
     return { message: emailError.message };
   }
+
+  return { success: true };
 };

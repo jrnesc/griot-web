@@ -15,13 +15,13 @@ export default function AboutPage() {
             <p className="mb-4 xl:w-3/4 text-lg text-gray-600 text-leading">
               <i>Griot AI</i> helps you create your own searchable library of information.
               <br/>
-              Privately, or with others.
+              Privately or with others.
             </p>
 
             <p className="mb-4 xl:w-3/4 text-lg text-gray-600 text-leading">
               We understand that the best quality information comes from our own personal libraries.
               <br/>
-              Whether that&apos;s your books (eBooks), personal notes, or even that YouTube &apos;watch later&apos; playlist full of math lectures.
+              Whether that&apos;s your books (eBooks), personal notes, or even that YouTube &apos;watch later&apos; playlist full of lectures.
             </p>
 
 
