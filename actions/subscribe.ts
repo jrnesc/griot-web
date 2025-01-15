@@ -3,7 +3,7 @@
 import { z } from 'zod';
 import { Resend } from 'resend';
 
-import Welcome from '@/emails/Welcome';
+import { renderWelcomeEmail } from '@/emails/render';
 
 const resend = new Resend(`${process.env.RESEND_API_KEY}`);
 
@@ -11,7 +11,13 @@ const schema = z.object({
   email: z.string().email({ message: 'Invalid email address' }),
 });
 
-export const subscribe = async (_prevState: any, formData: FormData) => {
+type SubscribeState = {
+  errors?: Record<string, string[]>;
+  message?: string;
+  success?: boolean;
+};
+
+export const subscribe = async (_prevState: SubscribeState, formData: FormData) => {
   const validatedFields = schema.safeParse({
     email: formData.get('email'),
   });
@@ -35,8 +41,8 @@ export const subscribe = async (_prevState: any, formData: FormData) => {
   const { error: emailError } = await resend.emails.send({
     from: 'Griot <team@usegriot.com>',
     to: [validatedFields.data.email],
-    subject: 'Hello Griot',
-    react: Welcome(),
+    subject: 'Thanks for subscribing!',
+    html: await renderWelcomeEmail(),
   });
 
   if (emailError) {

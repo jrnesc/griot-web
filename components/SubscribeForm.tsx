@@ -1,14 +1,20 @@
 'use client';
 
 import { useActionState } from 'react';
-
 import { subscribe } from '@/actions/subscribe';
+import { useTransition } from 'react';
 
 export default function SubscribeForm() {
   const [state, formAction] = useActionState(subscribe, { message: '' });
+  const [isPending, startTransition] = useTransition();
 
   return (
-    <form action={formAction} className="flex justify-center">
+    <form 
+      action={(formData) => {
+        startTransition(() => formAction(formData));
+      }} 
+      className="flex justify-center"
+    >
       <label htmlFor="email" className="sr-only">
         Email
       </label>
@@ -28,7 +34,13 @@ export default function SubscribeForm() {
         }`}
       >
         <span className="font-semibold text-md text-white pt-1">
-          {state?.success ? 'Subscribed!' : 'Subscribe'}
+          {isPending ? (
+            <div className="w-6 h-6 border-2 border-white border-t-transparent rounded-full animate-spin" />
+          ) : state?.success ? (
+            'Subscribed!'
+          ) : (
+            'Subscribe'
+          )}
         </span>
       </button>
     </form>
