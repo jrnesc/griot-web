@@ -39,7 +39,7 @@ export default function AboutPage() {
             </h2>
 
             <p className="mb-4 xl:w-3/4 text-lg text-gray-600 text-leading">
-              Griot takes your books, notes and videos and transforms them into a search engine. We then use AI to contextualise the results for you. Then if you want to, you can connect with your friends libraries too.
+              Griot takes your books, notes and videos and transforms them into a search engine. We then use AI to contextualise the results for you.
               <br/>
               <br/>
               Right now we&apos;re building AI agent tools to craft your own courses, send you newsletters and more.
