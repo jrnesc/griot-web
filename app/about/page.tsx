@@ -31,7 +31,7 @@ export default function AboutPage() {
             </p>
 
             <p className="mb-4 xl:w-3/4 text-lg text-gray-600 text-leading">
-              By using Griot, we help you create a space from your own digital content so you can stay connected to the sources shaping your mind.
+              By using Griot, we help you create a space from your own digital content so you can stay connected to the sources you want shaping your mind.
             </p>
 
             <h2 className="mt-16 mb-8 xl:w-3/4 text-lg text-600 font-bold text-leading">
