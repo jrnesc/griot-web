@@ -11,11 +11,11 @@ const PricingCard = ({
   period: string, 
   features: string[] 
 }) => (
-  <div className="bg-white rounded-2xl p-8 shadow-sm h-full flex flex-col border border-black-200">
-    <h3 className="text-xl mb-2 font-['Helvetica']">{title}</h3>
-    <div className="text-3xl font-semibold mb-4 font-['Helvetica']">
+  <div className="bg-white rounded-2xl p-8 shadow-sm h-full flex flex-col border border-gray-100">
+    <h3 className="text-l mb-2 font-medium font-['Helvetica'] text-gray-600">{title}</h3>
+    <div className="text-3xl font-semibold mb-4 font-['Helvetica'] text-gray-600">
       {price}
-      {price !== 'Free' && <span className="text-xl font-normal">/{period}</span>}
+      {price !== 'Free' && <span className="text-xl font-normal"> /{period}</span>}
     </div>
     <ul className="space-y-4 flex-grow">
       {features.map((feature, index) => (
@@ -95,7 +95,7 @@ export default function PricingPage() {
 
   return (
     <div className="min-h-screen pt-24 pb-12 px-4">
-      <div className="max-w-6xl mx-auto px-16">
+      <div className="max-w-7xl mx-auto px-8">
         <div className="text-leading mb-16">
         <h2 className="mt-16 mb-8 xl:w-3/4 text-lg text-600 font-bold text-leading">
         Pricing
