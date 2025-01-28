@@ -13,11 +13,12 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img 
+          <Image 
             src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=822187&theme=dark&t=1738060326652" 
             alt="Griot - Your AI Library | Product Hunt" 
-            width="250" 
-            height="54" 
+            width={250}
+            height={54}
+            unoptimized
           />
         </a>
       </div>
