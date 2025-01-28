@@ -6,6 +6,22 @@ import SubscribeForm from '@/components/SubscribeForm';
 export default function Home() {
   return (
     <section className="text-gray-600">
+      {/* Product Hunt Badge */}
+      <div className="flex justify-center pt-36">
+        <a 
+          href="https://www.producthunt.com/posts/griot?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-griot" 
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img 
+            src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=822187&theme=dark&t=1738060326652" 
+            alt="Griot - Your AI Library | Product Hunt" 
+            width="250" 
+            height="54" 
+          />
+        </a>
+      </div>
+
       <div className="max-w-7xl mx-auto flex flex-col px-5 py-36 items-center md:flex-row">
         <div className="flex flex-col pt-6 mb-20 md:mb-40 items-center text-center lg:flex-grow md:w-1/2 md:ml-24 md:items-start md:text-left">
           <h1 className="mb-5 text-4xl sm:text-5xl items-center xl:w-2/2 text-gray-900 font-bold">
