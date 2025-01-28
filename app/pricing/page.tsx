@@ -11,9 +11,9 @@ const PricingCard = ({
   period: string, 
   features: string[] 
 }) => (
-  <div className="bg-white rounded-3xl p-8 shadow-sm h-full flex flex-col border-2 border-gray-200">
+  <div className="bg-white rounded-2xl p-8 shadow-sm h-full flex flex-col border border-black-200">
     <h3 className="text-xl mb-2 font-['Helvetica']">{title}</h3>
-    <div className="text-3xl font-bold mb-4 font-['Helvetica']">
+    <div className="text-3xl font-semibold mb-4 font-['Helvetica']">
       {price}
       {price !== 'Free' && <span className="text-xl font-normal">/{period}</span>}
     </div>
