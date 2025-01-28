@@ -14,12 +14,15 @@ export default function Header() {
 
         <nav className="p-4">
           <ul className="flex items-center">
-          <li className="mx-6">
-            <Link href="/about" className="hover:underline">About</Link>
-          </li>
-          <li>
-            <Link href="https://apps.apple.com/gb/app/griot-ai/id6502509469" className="hover:underline">Download</Link>
-          </li>
+            <li className="mx-4">
+              <Link href="/about" className="hover:underline">About</Link>
+            </li>
+            <li className="mx-4">
+              <Link href="/pricing" className="hover:underline">Pricing</Link>
+            </li>
+            <li className="mx-4">
+              <Link href="https://apps.apple.com/gb/app/griot-ai/id6502509469" className="hover:underline">Download</Link>
+            </li>
           </ul>
         </nav>
       </div>
