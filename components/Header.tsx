@@ -17,9 +17,9 @@ export default function Header() {
             <li className="mx-4">
               <Link href="/about" className="hover:underline">About</Link>
             </li>
-            <li className="mx-4">
+            {/* <li className="mx-4">
               <Link href="/pricing" className="hover:underline">Pricing</Link>
-            </li>
+            </li> */}
             <li className="mx-4">
               <Link href="https://apps.apple.com/gb/app/griot-ai/id6502509469" className="hover:underline">Download</Link>
             </li>
