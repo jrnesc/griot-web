@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function Subsections() {
   return (
-    <div className="max-w-6xl mx-auto p-4 text-center">
+    <div className="max-w-6xl mx-auto p-4 text-center" id="features">
       <div className="mb-8">
         <span className="material-symbols-outlined">neurology</span>
         <h1 className="text-4xl font-bold mt-2 text-gray-900">Cloud Storage</h1>
