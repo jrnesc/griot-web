@@ -17,6 +17,9 @@ export default function Header() {
             <li className="mx-4">
               <Link href="/about" className="hover:underline">About</Link>
             </li>
+            <li className="mx-4">
+              <Link href="/#features" className="hover:underline">Features</Link>
+            </li>
             {/* <li className="mx-4">
               <Link href="/pricing" className="hover:underline">Pricing</Link>
             </li> */}

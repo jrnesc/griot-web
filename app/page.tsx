@@ -6,17 +6,17 @@ import SubscribeForm from '@/components/SubscribeForm';
 export default function Home() {
   return (
     <section className="text-gray-600">
-      <div className="max-w-7xl mx-auto flex flex-col px-5 py-36 items-center md:flex-row">
-        <div className="flex flex-col pt-6 mb-20 md:mb-40 items-center text-center lg:flex-grow md:w-1/2 md:ml-24 md:items-start md:text-left">
-          <h1 className="mb-5 text-4xl sm:text-5xl items-center xl:w-2/2 text-gray-900 font-bold">
-            Your AI Library
+      <div className="max-w-7xl mx-auto flex flex-col px-5 py-36 items-center">
+        <div className="flex flex-col pt-6 mb-12 items-center text-center">
+          <h1 className="mb-5 text-4xl sm:text-5xl items-center text-gray-900 font-bold">
+            Personal AI Search
           </h1>
-          <p className="mb-4 xl:w-3/4 text-lg text-gray-600">
-            Build a space for your most important sources
+          <p className="mb-8 max-w-2xl text-lg text-gray-600">
+            We help you build a search engine from your own data + more
           </p>
         </div>
-        <div className="mx-auto lg:mr-36 md:ml-4">
-          <Image src="/phone_2.png" alt="phone" width={250} height={100} className="w-full max-w-xs" />
+        <div className="mx-auto flex justify-center">
+          <Image src="/Group 176.png" alt="phone" width={2500} height={2000} className="w-full max-w-xl" />
         </div>
       </div>
 
