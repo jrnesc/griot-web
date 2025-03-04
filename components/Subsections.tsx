@@ -5,7 +5,7 @@ export default function Subsections() {
     <div className="max-w-6xl mx-auto p-4 text-center" id="features">
       <div className="mb-8">
         <span className="material-symbols-outlined">neurology</span>
-        <h1 className="text-4xl font-bold mt-2 text-gray-900">Cloud Storage</h1>
+        <h1 className="text-4xl font-bold mt-2 text-gray-900">Storage + Search</h1>
         <p className="text-lg text-gray-600">Make connections across all of your media types</p>
       </div>
       <div className="flex flex-col md:flex-row items-center mb-8">
