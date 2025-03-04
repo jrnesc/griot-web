@@ -15,9 +15,6 @@ export default function Header() {
         <nav className="p-4">
           <ul className="flex items-center">
             <li className="mx-4">
-              <Link href="/about" className="hover:underline">About</Link>
-            </li>
-            <li className="mx-4">
               <Link href="/#features" className="hover:underline">Features</Link>
             </li>
             {/* <li className="mx-4">
