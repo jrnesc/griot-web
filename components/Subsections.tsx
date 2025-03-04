@@ -62,7 +62,9 @@ export default function Subsections() {
           <Image src="/Group 150.png" alt="Phone" width={800} height={600} className="w-full max-w-md mx-auto" />
         </div>
         <div className="ml-0 md:ml-8 w-full md:w-1/2 text-left flex items-center px-8 py-4">
-          <p className="text-lg text-gray-600">Griot provides quotes and references from your sources with every answer. Never second guess an answer, instead validate and expand your own understanding</p>
+          <p className="text-lg text-gray-600">
+            Quotes and references from your sources with every answer.
+            Never second guess. Instead validate and expand your own understanding</p>
         </div>
       </div>
     </div>
