@@ -21,7 +21,7 @@ export default function Subsections() {
 
       <div className="mb-8 mt-20">
         <span className="material-symbols-outlined">box</span>
-        <h1 className="text-4xl font-bold mt-2 text-gray-900">Create Your Own Newsletter</h1>
+        <h1 className="text-4xl font-bold mt-2 text-gray-900">Create Your Own Insights</h1>
         <p className="text-lg text-gray-600">Consume content you actually want to see</p>
       </div>
       <div className="flex flex-col md:flex-row items-center mb-8">
@@ -32,7 +32,7 @@ export default function Subsections() {
           <p className="text-lg text-gray-600">
             Create your own articles + mini-courses from any of your sources.
             <br />
-            You can debate ideas from books by your fave authors, analyse your own notes or consume your books in an easier medium
+            You can compare ideas from your favourite authors, analyse your own notes or consume your sources in an easier medium
           </p>
         </div>
       </div>
