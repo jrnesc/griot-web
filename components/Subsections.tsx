@@ -46,8 +46,8 @@ export default function Subsections() {
         </div>
         <div className="ml-0 md:ml-8 w-full md:w-1/2 text-left flex items-center px-8 py-4">
           <p className="text-lg text-gray-600">
-
-            Having a dedicated space for your own sources allows you to focus on the information that matters most to you. Griot becomes an expert on the sources that you draw inspiration from
+            Having a dedicated space for your own sources allows you to focus on the information that matters most to you. 
+            Search suggestions and results grounded in the information you want to be inspired by
           </p>
         </div>
       </div>
@@ -59,7 +59,7 @@ export default function Subsections() {
       </div>
       <div className="flex flex-col md:flex-row items-center mb-8">
         <div className="p-6 w-full md:w-1/2">
-          <Image src="/Group 155.png" alt="Phone" width={800} height={600} className="w-full max-w-md mx-auto" />
+          <Image src="/Group 150.png" alt="Phone" width={800} height={600} className="w-full max-w-md mx-auto" />
         </div>
         <div className="ml-0 md:ml-8 w-full md:w-1/2 text-left flex items-center px-8 py-4">
           <p className="text-lg text-gray-600">Griot provides quotes and references from your sources with every answer. Never second guess an answer, instead validate and expand your own understanding</p>
