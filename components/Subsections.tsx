@@ -14,7 +14,7 @@ export default function Subsections() {
         </div>
         <div className="ml-0 md:ml-8 w-full md:w-1/2 text-left flex items-center px-8 py-4">
           <p className="text-lg text-gray-600">
-            Upload PDFs, ePUBs, YouTube videos, Google Docs, Obisidian + Notion notes and we&apos;ll turn them into a search engine for you
+            Upload PDFs, ePUBs, YouTube videos, Google Docs, Obisidian or Notion notes and we&apos;ll turn them into a search engine for you
           </p>
         </div>
       </div>
@@ -30,7 +30,7 @@ export default function Subsections() {
         </div>
         <div className="ml-0 md:ml-8 w-full md:w-1/2 text-left flex items-center px-8 py-4">
           <p className="text-lg text-gray-600">
-            Create your own articles + mini-courses from any of your sources. You can compare ideas from your favourite authors, analyse your notes or simply consume your content in an easier medium
+            Create your own articles or mini-courses from any of your sources. You can compare ideas from your favourite authors, analyse your notes or simply consume your content in an easier medium
           </p>
         </div>
       </div>
