@@ -9,7 +9,7 @@ export default function Home() {
       <div className="max-w-7xl mx-auto flex flex-col px-5 py-36 items-center">
         <div className="flex flex-col pt-6 mb-12 items-center text-center">
           <h1 className="mb-5 text-4xl sm:text-5xl items-center text-gray-900 font-bold">
-            Endless <span className="text-[#efc800]">Knowledge</span>,<br/>Infinite Discovery
+            Endless <span className="text-[#ef8c00]">Knowledge</span>,<br/>Infinite Discovery
           </h1>
           <p className="mb-8 max-w-2xl text-lg text-gray-600">
             {/* Stay connected to your most important information */}
